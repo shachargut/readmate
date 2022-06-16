@@ -8,4 +8,4 @@ app.use(require('cors')())
 app.use("/api",router)
 
 app.listen(PORT, () => console.log(`server is running => ${PORT}`))
-require('./DataAcsesLayer/db').connect();
+require('./DL/db').connect();

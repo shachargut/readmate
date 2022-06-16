@@ -1,4 +1,4 @@
-const userController = require('../DataAcsesLayer/controlers/userController')
+const userController = require('../DL/controllers/userController')
 // }
 // module.exports function getAllUsers = ()=>{
 //     userController.read({})

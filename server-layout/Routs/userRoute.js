@@ -1,6 +1,6 @@
 const express = require("express")
 const router = express.Router();
-const userLogic = require('../BuissnesLogic/userLogic')
+const userLogic = require('../BL/userLogic')
 
 router.get('/', async(req,res)=>{
     const users = await userLogic.getAllUsers();
